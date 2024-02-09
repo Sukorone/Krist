@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ssr: false,
   components: {
     global: true,
-    dirs: ['@/components/UI', '@/components']
+    dirs: ['@/components']
   },
   app: {
     head:{
@@ -17,5 +17,7 @@ export default defineNuxtConfig({
         {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
       ]
     }
-  }
+  },
+  css: ['~/assets/css/main.css'],
+  
 })
