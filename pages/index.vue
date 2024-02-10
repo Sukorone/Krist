@@ -1,5 +1,5 @@
 <template>
-  <section class="main-page">
+  <section class="main-page-banner">
     <div class="welcome-banner">
       <div class="advertisment-part">
         <h2>Classic Exlusive</h2>
@@ -14,61 +14,42 @@
       </div>
     </div>
   </section>
+  <section class="some-clothes-to-choose">
+    <div class="shop-by-categories">
+      <div class="h1-and-btn-categories">
+        <h1>Shop by Categories</h1>
+        <div class="switcher-in-cat">
+          <MyButton style="width: 50px; height: 50px; background-color:rgb(227, 226, 227) ;color: black;"><i class="material-icons">arrow_back</i></MyButton>
+          <MyButton style="width: 50px; height: 50px; color:rgb(227, 226, 227) ;"><i class="material-icons">arrow_forward</i></MyButton>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
 </script>
 
 <style scoped>
+.h1-and-btn-categories {
+  display: flex;
+  justify-content: space-around;
+  gap: 700px;
+  align-items: center;
+}
+.h1-and-btn-categories h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.switcher-in-cat {
+  display: flex;
+  gap: 20px;
+}
 .btn {
   width:130px;
   height: auto;
   font-size: 12px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-.shop-btn {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-  text-align: center;
-  margin-left: 15px;
-}
-.shop-btn i:before{
-  width: 5px;
-  height: 5px;
-}
-.welcome-banner {
-  height:800px;
-  width: 1850px;
-  position: relative;
-  margin-left:30px;
-  margin-right: 30px;
-  background-image: url('@/public/main_pic.PNG');
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
-.advertisment-part {
-  position: absolute;
-  top:300px;
-  left: 200px;
-
-}
-.welcome-banner h2 {
-  font-size:35px;
-  font-weight: lighter;
-  padding-bottom: 10px;
-}
-.welcome-banner h1 {
-  font-size:50px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-.welcome-banner h3 {
-  font-size:25px;
-  font-weight: lighter;
-  padding-bottom: 35px;
-}
 </style>
