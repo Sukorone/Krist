@@ -34,8 +34,8 @@
 
 .h1-and-btn-categories {
   display: flex;
-  justify-content: space-around;
-  gap: 700px;
+  justify-content: space-between;
+  margin: 0 60px;
   align-items: center;
 } 
 .h1-and-btn-categories h1 {
