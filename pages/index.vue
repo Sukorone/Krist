@@ -8,7 +8,7 @@
         <MyButton class="btn">
           <div class="shop-btn">
             <span>Shop Now</span>
-            <i class="material-icons">arrow_forward</i>
+            <i class="material-icons icon">arrow_forward</i>
           </div>
         </MyButton>
       </div>
@@ -18,7 +18,7 @@
     <div class="shop-by-categories">
       <div class="h1-and-btn-categories">
         <h1>Shop by Categories</h1>
-        <div class="switcher-in-cat">
+        <div class="switcher-in-categories">
           <MyButton style="width: 50px; height: 50px; background-color:rgb(227, 226, 227) ;color: black;"><i class="material-icons">arrow_back</i></MyButton>
           <MyButton style="width: 50px; height: 50px; color:rgb(227, 226, 227) ;"><i class="material-icons">arrow_forward</i></MyButton>
         </div>
@@ -31,17 +31,18 @@
 </script>
 
 <style scoped>
+
 .h1-and-btn-categories {
   display: flex;
   justify-content: space-around;
   gap: 700px;
   align-items: center;
-}
+} 
 .h1-and-btn-categories h1 {
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.switcher-in-cat {
+.switcher-in-categories {
   display: flex;
   gap: 20px;
 }

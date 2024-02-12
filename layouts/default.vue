@@ -32,3 +32,9 @@
 <script setup>
 
 </script>
+<style>
+.material-symbols-outlined {
+  width: 28px;
+  height: 28px;
+}
+</style>

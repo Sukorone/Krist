@@ -21,10 +21,11 @@
     gap: 20px;
   }
   .navbar-container {
+    margin: 0 100px 0;
+    max-width:1840px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap:400px;
     height: 90px;
   }
   .shop-box {
@@ -72,6 +73,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 100px;
+    
   }
   
   .advertisment-part {
