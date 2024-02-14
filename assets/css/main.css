@@ -60,19 +60,21 @@
     margin-left: 15px;
   }
   .welcome-banner {
-    width: 94vw;
+    width: 96vw;
     height: 100vh;
     margin-left: 30px;
     margin-bottom: 70px;
     background-image: url('@/public/main_pic.PNG');
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
     
   }
   
   .advertisment-part {
-    margin-top: 300px ;
-    max-width: 500px;
+    position:absolute;
+    top: 299px;
+    left:150px;
   }
   .welcome-banner h2 {
     font-size:35px;
